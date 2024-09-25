@@ -1,0 +1,143 @@
+/* html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.form-page {
+  background-color: #c6342a;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+form {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input {
+  margin-bottom: 30px;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+  color: #c6342a;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #eaeaea;
+}
+
+.home-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 40px;
+  cursor: pointer;
+} */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.form-page {
+  background: linear-gradient(135deg, #f06, #c6342a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 40px;
+  width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #c6342a;
+  border: none;
+  border-radius: 4px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f2f2f2;
+  transform: scale(1.05);
+}
+
+.home-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.home-icon:hover {
+  transform: scale(1.05);
+}

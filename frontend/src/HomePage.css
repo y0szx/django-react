@@ -1,0 +1,86 @@
+/* html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.home-page {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #3f62dc;
+}
+
+.container {
+  text-align: center;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 48px;
+}
+
+.forms-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+  color: white;
+} */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.home-page {
+  background: linear-gradient(135deg, #3f62dc, #0a1b82);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 1000px;
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.forms-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 45px;
+  height: 35px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.forms-icon:hover {
+  transform: scale(1.05);
+}
